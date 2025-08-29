@@ -1,5 +1,9 @@
-To run my Angular Vacation App locally:
+#To run my Angular Vacation App locally ensure you are in the vacation-app directory then run the following commands:
 
-1: ensure you are in the vacation-app directory
-2: run command: ng serve
-3: run command: json-server --watch db.json
+```bash
+ng serve
+```
+
+```bash
+json-server --watch db.json
+```
