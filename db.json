@@ -1,0 +1,68 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Treehouse",
+      "city": "Greenville",
+      "state": "MO",
+      "photo": "https://a0.muscache.com/im/pictures/hosting/Hosting-765325253241841227/original/bf92e5dc-9ff4-4e62-9afc-3f86e824a281.jpeg?im_w=1200",
+      "wifi": true,
+      "laundry": true,
+      "rooms": 1,
+      "bathroom": 1,
+      "beds": 1,
+      "kitchen": true,
+      "tv": true,
+      "hotTub": true,
+      "pets": false
+    },
+    {
+      "id": 2,
+      "name": "Tucked in Nature",
+      "city": "Wimberly",
+      "state": "TX",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-54198028/original/67a09d66-7817-43d5-9520-11eddde9328c.jpeg?im_w=1200",
+      "wifi": true,
+      "laundry": true,
+      "rooms": 2,
+      "bathroom": 1.5,
+      "beds": 3,
+      "kitchen": true,
+      "tv": true,
+      "hotTub": true,
+      "pets": true
+    },
+    {
+      "id": 3,
+      "name": "The Hygge House",
+      "city": "Tyler",
+      "state": "TX",
+      "photo": "https://a0.muscache.com/im/pictures/miso/Hosting-876248426402093525/original/3cce9fcb-422a-4ad6-aa62-2ee25b48376f.jpeg?im_w=1200",
+      "wifi": true,
+      "laundry": true,
+      "rooms": 1,
+      "bathroom": 1,
+      "beds": 1,
+      "kitchen": true,
+      "tv": true,
+      "hotTub": false,
+      "pets": false
+    },
+    {
+      "id": 4,
+      "name": "Tranquil Savannah River",
+      "city": "Hardeeville",
+      "state": "SC",
+      "photo": "https://a0.muscache.com/im/pictures/2bcf49f8-f594-4f10-b0ea-ae1f447fc0c2.jpg?im_w=1200",
+      "wifi": true,
+      "laundry": true,
+      "rooms": 1,
+      "bathroom": 1,
+      "beds": 2,
+      "kitchen": true,
+      "tv": true,
+      "hotTub": false,
+      "pets": true
+    }
+  ]
+}

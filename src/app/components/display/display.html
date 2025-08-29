@@ -1,0 +1,23 @@
+<main>
+  <div class="search-div">
+    <input placeholder="Search by city" type="text" #filter />
+    <button matButton="elevated" type="button" (click)="filterResults(filter.value)">Search</button>
+  </div>
+  <div class="home-display">
+    @for (location of filteredLocationList; track location.name) {
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ location.name }}</mat-card-title>
+      </mat-card-header>
+      <div class="wrapper">
+        <img mat-card-image [alt]="location.name" [src]="location.photo" class="display-image" />
+      </div>
+      <mat-card-content>
+        <p>{{ location.city }}, {{ location.state }}</p>
+        <a matButton="elevated" [routerLink]="['/details', location.id]">See More</a>
+      </mat-card-content>
+    </mat-card>
+    }
+  </div>
+</main>
+<router-outlet></router-outlet>

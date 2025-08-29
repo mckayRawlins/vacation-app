@@ -1,0 +1,16 @@
+div {
+  background-color: white;
+  display: flex;
+}
+
+.link {
+  display: block;
+  width: fit-content;
+  padding: 1rem;
+  border-right: 1px solid rgb(221, 221, 221);
+
+  &:hover {
+    background-color: #e6ecf8;
+    cursor: pointer;
+  }
+}

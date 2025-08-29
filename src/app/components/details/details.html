@@ -1,0 +1,41 @@
+<main>
+  <section class="title-section">
+    <div class="title-content">
+      <h1>{{ housingLocation?.name }}</h1>
+      <h2>{{ housingLocation?.city }}, {{ housingLocation?.state }}</h2>
+    </div>
+    <div class="wrapper">
+      <img [alt]="housingLocation?.name" [src]="housingLocation?.photo" />
+    </div>
+  </section>
+
+  <section class="content-section">
+    <h3>About this place:</h3>
+    <div class="amenities">
+      <p class="amenity-item">Wi-Fi: {{ housingLocation?.wifi }}</p>
+      <p class="amenity-item">Laundry: {{ housingLocation?.laundry }}</p>
+      <p class="amenity-item">Bedrooms: {{ housingLocation?.rooms }}</p>
+      <p class="amenity-item">Bathrooms: {{ housingLocation?.bathroom }}</p>
+      <p class="amenity-item">Beds: {{ housingLocation?.beds }}</p>
+      <p class="amenity-item">Kitchen: {{ housingLocation?.kitchen }}</p>
+      <p class="amenity-item">TV: {{ housingLocation?.tv }}</p>
+      <p class="amenity-item">Hot tub: {{ housingLocation?.hotTub }}</p>
+      <p class="amenity-item">Pets: {{ housingLocation?.pets }}</p>
+    </div>
+  </section>
+
+  <section class="booking-section">
+    <h3>Book it now!</h3>
+    <mat-form-field>
+      <mat-label>Enter a date range</mat-label>
+      <mat-date-range-input [rangePicker]="picker">
+        <input matStartDate placeholder="Start date" />
+        <input matEndDate placeholder="End date" />
+      </mat-date-range-input>
+      <mat-hint>MM/DD/YYYY - MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-date-range-picker #picker></mat-date-range-picker>
+    </mat-form-field>
+    <button matButton="elevated">Book</button>
+  </section>
+</main>
